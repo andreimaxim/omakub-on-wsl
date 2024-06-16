@@ -6,12 +6,21 @@ as it will try to install applications like Chrome, Spotify or Typora on Linux a
 
 [omakub]: https://omakub.org/
 
-Omakub on WSL aims to select the parts of Omakub that are applicable to the WSL layer and adjust, where needed,
-the existing scripts in order to provide a better experience out of the box on Windows.
+## Windows Applications:
 
-## Design Principles
+By default, Omakub will install the following GUI applications and, fortunately, all of them have Windows versions:
 
-The project follows the exact same structure as Omakub, with the files named in the exact same way so 
-diffing between the original project and this one.
+* [Alacritty](https://alacritty.org/)
+* [Basecamp](https://basecamp.com/via)
+* [Google Chrome](https://www.google.com/chrome/)
+* [FlameShot](https://flameshot.org/#download)
+* [Docker](https://www.docker.com/products/docker-desktop/)
+* [Hey](https://www.hey.com/apps/)
+* [Signal](https://signal.org/download/)
+* [Typora](https://typora.io/)
+* [VLC](https://www.videolan.org/)
+* [VS Code](https://code.visualstudio.com/)
+* [WhatsApp](https://www.whatsapp.com/download)
+* [Xournal](https://xournalpp.github.io/)
 
-Installing and configuring the GUI applications should be done directly in Windows.
+It is recommended to manually install them on Windows.

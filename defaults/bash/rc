@@ -1,4 +1,8 @@
 source ~/.local/share/omakub-on-wsl/defaults/bash/shell
-source ~/.local/share/omakub-on-wsl/defaults/bash/aliases
-source ~/.local/share/omakub-on-wsl/defaults/bash/prompt
-source ~/.local/share/omakub-on-wsl/defaults/bash/init
+source ~/.local/share/omakub/defaults/bash/aliases
+source ~/.local/share/omakub/defaults/bash/prompt
+source ~/.local/share/omakub/defaults/bash/init
+
+# Editor used by CLI
+export EDITOR="nvim"
+export SUDO_EDITOR="nvim"
